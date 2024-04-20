@@ -1,7 +1,7 @@
 {
   "name": "mr-template",
   "version": "0.1.0",
-  "homepage": "https://MohammadrezaAmani.github.io/",
+  "homepage": "https://MobinaAfsharii.github.io/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
