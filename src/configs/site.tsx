@@ -18,20 +18,20 @@ export const siteConfig = {
   langs: [
     {
       langs: langs.en.short,
-      title: "Mohammadreza Amani",
-      description: "Mohammadreza Amani's personal website",
-      author: "Mohammadreza Amani",
+      title: "Mobina Afshari",
+      description: "Mobina Afshari's personal website",
+      author: "Mobina Afshari",
     },
     {
       lang: langs.fa.short,
-      title: "محمدرضا امانی",
-      description: "وبسایت شخصی محمدرضا امانی",
-      author: "محمدرضا امانی",
+      title: "مبینا افشاری",
+      description: "وبسایت شخصی مبینا افشاری",
+      author: "مبینا افشاری",
     },
   ],
-  url: "https://MohammadrezaAmani.github.io/",
+  url: "https://MobinaAfsharii.github.io/",
   email: "more.amani@yahoo.com",
-  github: "https://github.com/MohammadrezaAmani",
+  github: "https://github.com/MobinaAfsharii",
   theme: "dark",
 };
 
@@ -86,17 +86,17 @@ export const homePage = [
     lang: langs.en.short,
     title: (
       <h2 className="text-4xl">
-        Hi, I’m <span className="text-red-600">Mohammadreza</span>
+        Hi, I’m <span className="text-red-600">Mobina</span>
       </h2>
     ),
     subtitle: (
-      <p className="text-slate-600">Sofware Engineer and FullStack Developer</p>
+      <p className="text-slate-600">Sofware Engineer</p>
     ),
     skills: [
       {
-        title: "Web designer & developer",
+        title: "developer",
         icon: TbHeartCode,
-        url: "https://github.com/MohammadrezaAmani",
+        url: "https://github.com/MobinaAfsharii",
       },
       {
         title: "Tehran, Iran",
@@ -104,9 +104,9 @@ export const homePage = [
         url: "https://www.google.com/maps/d/viewer?mid=132fq12ig_YfdeN0cxzAkc6Ik4lo&hl=en&ll=35.71061825680851%2C51.4071210981902&z=17",
       },
       {
-        title: "more.amani@yahoo.com",
+        title: "mobina.afshari@aut.ac.ir",
         icon: MdOutlineAlternateEmail,
-        url: "mailto:more.amani@yahoo.com",
+        url: "mobina.afshari@aut.ac.ir",
       },
     ],
     cvButton: "DOWNLOAD CV",
@@ -116,15 +116,15 @@ export const homePage = [
     lang: langs.fa.short,
     title: (
       <h2 className="text-4xl">
-        <span className="text-red-600">محمدرضا</span> هستم.
+        <span className="text-red-600">مبینا</span> هستم.
       </h2>
     ),
-    subtitle: <p className="text-slate-600">یک برنامه‌نویس ساده!</p>,
+    subtitle: <p className="text-slate-600"> برنامه‌نویس !</p>,
     skills: [
       {
         title: "برنامه نویس و توسعه دهنده‌ وب",
         icon: TbHeartCode,
-        url: "https://github.com/MohammadrezaAmani",
+        url: "https://github.com/MobinaAfsharii",
       },
       {
         title: "تهران، ایران",
@@ -132,9 +132,9 @@ export const homePage = [
         url: "https://www.google.com/maps/d/viewer?mid=132fq12ig_YfdeN0cxzAkc6Ik4lo&hl=en&ll=35.71061825680851%2C51.4071210981902&z=17",
       },
       {
-        title: "more.amani@yahoo.com",
+        title: "mobina.afshari@aut.ac.ir",
         icon: MdOutlineAlternateEmail,
-        url: "mailto:more.amani@yahoo.com",
+        url: "mailto:mobina.afshari@aut.ac.ir",
       },
     ],
     cvButton: "دانلود رزومه",

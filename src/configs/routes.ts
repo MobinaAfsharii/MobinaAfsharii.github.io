@@ -7,12 +7,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Home",
-        description: "Mohammadreza Amani's personal website",
+        description: "Mobina Afshari's personal website",
       },
       {
         lang: languages.fa.short,
         title: "صفحه‌ی اصلی",
-        description: "وبسایت شخصی محمدرضا امانی",
+        description: "وبسایت شخصی مبینا افشاری",
       },
     ],
   },
@@ -22,12 +22,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Experience",
-        description: "Mohammadreza Amani's work experience",
+        description: "Mobina Afshari's work experience",
       },
       {
         lang: languages.fa.short,
         title: "تجارب کاری",
-        description: "تجارب کاری محمدرضا امانی",
+        description: "تجارب کاری مبینا افشاری",
       },
     ],
   },
@@ -37,12 +37,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Education",
-        description: "Mohammadreza Amani's education",
+        description: "Mobina Afshari's education",
       },
       {
         lang: languages.fa.short,
         title: "تحصیلات",
-        description: "تحصیلات محمدرضا امانی",
+        description: "تحصیلات مبینا افشاری",
       },
     ],
   },
@@ -52,12 +52,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Resume",
-        description: "Mohammadreza Amani's resume",
+        description: "Mobina Afshari's resume",
       },
       {
         lang: languages.fa.short,
         title: "رزومه",
-        description: "رزومه محمدرضا امانی",
+        description: "رزومه مبینا افشاری",
       },
     ],
   },
@@ -67,12 +67,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Projects",
-        description: "Mohammadreza Amani's projects",
+        description: "Mobina Afshari's projects",
       },
       {
         lang: languages.fa.short,
         title: "پروژه‌ها",
-        description: "پروژه‌های محمدرضا امانی",
+        description: "پروژه‌های مبینا افشاری",
       },
     ],
   },
@@ -82,12 +82,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Blog",
-        description: "Mohammadreza Amani's blog",
+        description: "Mobina Afshari's blog",
       },
       {
         lang: languages.fa.short,
         title: "بلاگ",
-        description: "بلاگ محمدرضا امانی",
+        description: "بلاگ مبینا افشاری",
       },
     ],
   },
@@ -111,12 +111,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "About",
-        description: "About Mohammadreza Amani",
+        description: "About Mobina Afshari",
       },
       {
         lang: languages.fa.short,
         title: "درباره",
-        description: "درباره محمدرضا امانی",
+        description: "درباره مبینا افشاری",
       },
     ],
   },
@@ -126,12 +126,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Contact",
-        description: "Contact Mohammadreza Amani",
+        description: "Contact Mobina Afshari",
       },
       {
         lang: languages.fa.short,
         title: "تماس",
-        description: "تماس با محمدرضا امانی",
+        description: "تماس با مبینا افشاری",
       },
     ],
   },
@@ -201,12 +201,12 @@ export const routes = {
       {
         lang: languages.en.short,
         title: "Education",
-        description: "Mohammadreza Amani's education",
+        description: "Mobina Afshari's education",
       },
       {
         lang: languages.fa.short,
         title: "تحصیلات",
-        description: "تحصیلات محمدرضا امانی",
+        description: "تحصیلات مبینا افشاری",
       },
     ],
   },

@@ -7,14 +7,14 @@ import {
 import { langs as languages } from "./langs";
 
 export const profile = {
-  image: "https://avatars.githubusercontent.com/u/64687226?v=4",
-  email: "more.amani@yahoo.com",
-  phone: "123-456-7890",
+  image: "https://media.licdn.com/dms/image/D4E03AQElmMq5tmsjpQ/profile-displayphoto-shrink_800_800/0/1705061908514?e=1720051200&v=beta&t=Jgv3tgJOL1c56B9nkwOLwi-j9tErrOCXzPR21cdcklM",
+  email: "mobina.afshari@aut.ac.ir",
+  phone: "+98 938 295 6661",
   langs: [
     {
       lang: languages.en.short,
       title: "Software Engineer",
-      name: "Mohammadreza Amani",
+      name: "Mobina Afshari",
       about:
         "Experienced Software Engineer with a passion for innovation and problem-solving. Dedicated to crafting high-quality software solutions that exceed expectations. Proficient in a wide range of technologies including React, Node.js, TypeScript, and GraphQL, with a strong foundation in DevOps practices such as Docker, Kubernetes, CI/CD, and serverless architecture. Skilled in Agile methodologies with a focus on TDD and DDD principles. Committed to continuous learning and staying updated with the latest industry trends. Excited to collaborate on challenging projects and contribute to the success of dynamic teams.",
       location: "Tehran, IR",
@@ -50,7 +50,7 @@ export const profile = {
     {
       lang: languages.fa.short,
       title: "مهندس نرم افزار",
-      name: "محمدرضا امانی",
+      name: "مبینا افشاری",
       about:
         "مهندس نرم‌افزار با تجربه، با علاقه‌ی فراوان به نوآوری و حل مسائل. متعهد به ایجاد راه‌حل‌های نرم‌افزاری با کیفیت بالا که انتظارات را برآورده می‌کنند. ماهر در زمینه‌ی تکنولوژی‌های گوناگون از جمله ری‌اکت، نود.جی‌اس، تایپ‌اسکریپت و جی‌کیوال، با پایه‌ی استوار در روش‌های DevOps مانند داکر، کوبرنیتیز، CI/CD و معماری سرورلس. مسلط به روش‌های چابک با تمرکز بر اصول TDD و DDD. متعهد به یادگیری مداوم و دنبال کردن آخرین روندهای صنعت. مشتاق به همکاری در پروژه‌های چالش‌برانگیز و سهیم شدن در موفقیت تیم‌های پویا.",
       location: "تهران، ایران",
@@ -86,27 +86,27 @@ export const profile = {
   socials: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/mohammadreza-amani",
+      url: "https://www.linkedin.com/in/mobina-afshari-29046324b/",
       icon: PiLinkedinLogoThin,
-      value: "mohammadreza-amani",
+      value: "mobina-afshari",
     },
     {
       name: "github",
-      url: "https://github.com/MohammadrezaAmani",
+      url: "https://github.com/MobinaAfsharii",
       icon: PiGithubLogoThin,
-      value: "MohammadrezaAmani",
+      value: "MobinaAfsharii",
     },
     {
       name: "instagram",
-      url: "https://www.instagram.com/more.amani",
+      url: "https://www.instagram.com/_im0bina_",
       icon: PiInstagramLogoThin,
-      value: "more.amani",
+      value: "_im0bina_",
     },
     {
       name: "telegram",
-      url: "https://t.me/Mohammadreza_amani",
+      url: "https://t.me/ma3281",
       icon: PiTelegramLogoThin,
-      value: "Mohammadreza_amani",
+      value: "ma3281",
     },
   ],
 };

@@ -11,20 +11,12 @@ import { PiLinkedinLogoThin } from "react-icons/pi";
 import { VscGithubAlt } from "react-icons/vsc";
 
 const Data = {
-  image: "https://avatars.githubusercontent.com/u/64687226?v=4",
+  image: "https://media.licdn.com/dms/image/D4E03AQElmMq5tmsjpQ/profile-displayphoto-shrink_800_800/0/1705061908514?e=1720051200&v=beta&t=Jgv3tgJOL1c56B9nkwOLwi-j9tErrOCXzPR21cdcklM",
   en: {
-    title: "Mohammadreza Amani",
+    title: "Mobina Afshari",
     content: (
       <p>
-        Experienced Software Engineer with a passion for innovation and
-        problem-solving. Dedicated to crafting high-quality software solutions
-        that exceed expectations. Proficient in a wide range of technologies
-        including React, Node.js, TypeScript, and GraphQL, with a strong
-        foundation in DevOps practices such as Docker, Kubernetes, CI/CD, and
-        serverless architecture. Skilled in Agile methodologies with a focus on
-        TDD and DDD principles. Committed to continuous learning and staying
-        updated with the latest industry trends. Excited to collaborate on
-        challenging projects and contribute to the success of dynamic teams.,
+        i will write my exprience here.,
       </p>
     ),
     imageText: "Image Text",
@@ -36,15 +28,15 @@ const Data = {
       ways: [
         {
           title: "Email",
-          content: "more.amani@yahoo.com",
+          content: "mobina.afshari@aut.ac.ir",
           icon: MdOutlineAlternateEmail,
-          url: "mailto:more.amani@yahoo.com",
+          url: "mailto:mobina.afshari@aut.ac.ir",
         },
         {
           title: "Phone",
-          content: "+98 912 345 6789",
+          content: "+98 938 295 6661",
           icon: MdOutlineVoicemail,
-          url: "tel:+989123456789",
+          url: "tel:+989382956661",
         },
         {
           title: "Address",
@@ -54,42 +46,36 @@ const Data = {
         },
         {
           title: "Telegram",
-          content: "@Mohammadreza_Amani",
+          content: "@ma3281",
           icon: PiTelegramLogoThin,
-          url: "https://t.me/Mohammadreza_Amani",
+          url: "https://t.me/ma3281",
         },
         {
           title: "Instagram",
-          content: "@more.amani",
+          content: "@_im0bina_",
           icon: PiInstagramLogoThin,
-          url: "https://www.instagram.com/more.amani",
+          url: "https://www.instagram.com/_im0bina_",
         },
         {
           title: "Linkedin",
-          content: "@Mohammadreza-Amani",
+          content: "@Mobina-Afshari",
           icon: PiLinkedinLogoThin,
-          url: "https://www.linkedin.com/in/mohammadreza-amani",
+          url: "https://www.linkedin.com/in/mobina-afshari-29046324b/",
         },
         {
           title: "Github",
-          content: "@MohammadrezaAmani",
+          content: "@MobinaAfsharii",
           icon: VscGithubAlt,
-          url: "https://github.com/MohammadrezaAmani",
+          url: "https://github.com/MobinaAfsharii",
         },
       ],
     },
   },
   fa: {
-    title: "محمدرضا امانی",
+    title: "مبینا افشاری",
     content: (
       <p>
-        مهندس نرم‌افزار با تجربه، با علاقه‌ی فراوان به نوآوری و حل مسائل. متعهد
-        به ایجاد راه‌حل‌های نرم‌افزاری با کیفیت بالا که انتظارات را برآورده
-        می‌کنند. ماهر در زمینه‌ی تکنولوژی‌های گوناگون از جمله ری‌اکت، نود.جی‌اس،
-        تایپ‌اسکریپت و جی‌کیوال، با پایه‌ی استوار در روش‌های DevOps مانند داکر،
-        کوبرنیتیز، CI/CD و معماری سرورلس. مسلط به روش‌های چابک با تمرکز بر اصول
-        TDD و DDD. متعهد به یادگیری مداوم و دنبال کردن آخرین روندهای صنعت. مشتاق
-        به همکاری در پروژه‌های چالش‌برانگیز و سهیم شدن در موفقیت تیم‌های پویا.
+        خواهم نوشت
       </p>
     ),
     imageText: "متن تصویر",
@@ -104,15 +90,15 @@ const Data = {
       ways: [
         {
           title: "ایمیل",
-          content: "more.amani@yahoo.com",
+          content: "mobina.afshari@aut.ac.ir",
           icon: MdOutlineAlternateEmail,
-          url: "mailto:more.amani@yahoo.com",
+          url: "mailto:mobina.afshari@aut.ac.ir",
         },
         {
           title: "تلفن",
-          content: "+98 912 345 6789",
+          content: "+98 938 295 6661",
           icon: MdOutlineVoicemail,
-          url: "tel:+989123456789",
+          url: "tel:+989382956661",
         },
         {
           title: "آدرس",
@@ -122,27 +108,27 @@ const Data = {
         },
         {
           title: "تلگرام",
-          content: "@Mohammadreza_Amani",
+          content: "@ma3281",
           icon: PiTelegramLogoThin,
-          url: "https://t.me/Mohammadreza_Amani",
+          url: "https://t.me/ma3281",
         },
         {
           title: "اینستاگرام",
-          content: "@more.amani",
+          content: "@_im0bina_",
           icon: PiInstagramLogoThin,
-          url: "https://www.instagram.com/more.amani",
+          url: "https://www.instagram.com/_im0bina_",
         },
         {
           title: "لینکدین",
-          content: "@Mohammadreza-Amani",
+          content: "@Mobina-Afshari",
           icon: PiLinkedinLogoThin,
-          url: "https://www.linkedin.com/in/mohammadreza-amani",
+          url: "https://www.linkedin.com/in/mobina-afshari-29046324b/",
         },
         {
           title: "گیت‌هاب",
-          content: "@MohammadrezaAmani",
+          content: "@MobinaAfsharii",
           icon: VscGithubAlt,
-          url: "https://github.com/MohammadrezaAmani",
+          url: "https://github.com/MobinaAfsharii",
         },
       ],
     },
