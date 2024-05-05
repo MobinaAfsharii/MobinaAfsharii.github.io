@@ -30,7 +30,7 @@ export const siteConfig = {
     },
   ],
   url: "https://MobinaAfsharii.github.io/",
-  email: "more.amani@yahoo.com",
+  email: "mobina.afshari@aut.ac.ir",
   github: "https://github.com/MobinaAfsharii",
   theme: "dark",
 };
@@ -60,16 +60,6 @@ export function getMenuItems(lang: string) {
       text: findTitle("resume"),
       slug: BaseUri + routes.resume.path,
       icon: SiReaddotcv,
-    },
-    {
-      text: findTitle("project"),
-      slug: BaseUri + routes.project.path,
-      icon: FaMedapps,
-    },
-    {
-      text: findTitle("blog"),
-      slug: BaseUri + routes.blog.path,
-      icon: LiaReadme,
     },
     {
       text: findTitle("about"),

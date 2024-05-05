@@ -25,7 +25,7 @@ export default function Blog({ slug }: commonArgs) {
             className={`flex p-4 sm:p-8 w-10/12 sm:w-auto h-auto justify-center mt-12 sm:mt-0 ${boxStyle}`}
           >
             <img
-              src="https://avatars.githubusercontent.com/u/64687226?v=4"
+              src="https://media.licdn.com/dms/image/D4E03AQElmMq5tmsjpQ/profile-displayphoto-shrink_400_400/0/1705061908514?e=1720656000&v=beta&t=xTslA1SuWCpZA-JIT20LcA1JHUpX738oc3Hf2y35T1g"
               alt="Personal Portfolio"
               className={`rounded-md`}
             />

@@ -88,26 +88,7 @@ function ResumeTemplate(props: {
             </div>
           ))}
         </div>
-        <div className="mt-10">
-          <h2 className="text-2xl font-semibold mb-2">
-            {props.resumeLang.projects}
-          </h2>
-          {Data.projects.map((item, index) => (
-            <div key={index} className="mb-4">
-              <div className="flex justify-between">
-                <span className="font-semibold">
-                  {item.langs[indexing].title}
-                </span>
-                {/* <span className="text-sm text-gray-400">
-                  {item.created_at} - {item.updated_at}
-                </span> */}
-              </div>
-              <p className="text-sm font-light text-slate-700">
-                {item.langs[indexing].description}
-              </p>
-            </div>
-          ))}
-        </div>
+        
       </div>
     </div>
   );

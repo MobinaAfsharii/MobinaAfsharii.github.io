@@ -16,7 +16,7 @@ const Data = {
     title: "Mobina Afshari",
     content: (
       <p>
-        i will write my exprience here.,
+        i'm trying to be a better developer.,
       </p>
     ),
     imageText: "Image Text",
@@ -75,7 +75,7 @@ const Data = {
     title: "مبینا افشاری",
     content: (
       <p>
-        خواهم نوشت
+        در تلاشم تا بتوانم توسعه دهنده بهتری باشم..
       </p>
     ),
     imageText: "متن تصویر",

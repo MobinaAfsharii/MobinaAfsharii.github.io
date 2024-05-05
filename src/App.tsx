@@ -9,12 +9,8 @@ import { Layout } from "./app/layout";
 import { useLang } from "./hooks/langHook";
 import { useTheme } from "./hooks/themeHook";
 const Home = React.lazy(() => import("./app/page"));
-const Blog = React.lazy(() => import("./app/blog/page"));
-const BlogDetails = React.lazy(() => import("./app/blog/[blogid]/page"));
-const Project = React.lazy(() => import("./app/projects/page"));
-const ProjectDetails = React.lazy(
-  () => import("./app/projects/[projectid]/page")
-);
+
+
 const About = React.lazy(() => import("./app/about/page"));
 const Contact = React.lazy(() => import("./app/contact/page"));
 const FAQ = React.lazy(() => import("./app/faq/page"));
@@ -102,54 +98,6 @@ export function App() {
             memoizedHeader={memoizedHeader}
             memoizedFooter={memoizedFooter}
             children={<Home slug={routes.home.path} />}
-          />
-        </Suspense>
-      ),
-    },
-    {
-      path: routes.blog.path,
-      element: (
-        <Suspense fallback={null}>
-          <Layout
-            memoizedHeader={memoizedHeader}
-            memoizedFooter={memoizedFooter}
-            children={<Blog slug={routes.blog.path} />}
-          />
-        </Suspense>
-      ),
-    },
-    {
-      path: routes.blogDetails.path,
-      element: (
-        <Suspense fallback={null}>
-          <Layout
-            memoizedHeader={memoizedHeader}
-            memoizedFooter={memoizedFooter}
-            children={<BlogDetails slug={routes.blogDetails.path} />}
-          />
-        </Suspense>
-      ),
-    },
-    {
-      path: routes.project.path,
-      element: (
-        <Suspense fallback={null}>
-          <Layout
-            memoizedHeader={memoizedHeader}
-            memoizedFooter={memoizedFooter}
-            children={<Project slug={routes.project.path} />}
-          />
-        </Suspense>
-      ),
-    },
-    {
-      path: routes.projectDetails.path,
-      element: (
-        <Suspense fallback={null}>
-          <Layout
-            memoizedHeader={memoizedHeader}
-            memoizedFooter={memoizedFooter}
-            children={<ProjectDetails slug={routes.projectDetails.path} />}
           />
         </Suspense>
       ),

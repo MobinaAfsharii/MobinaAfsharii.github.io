@@ -61,50 +61,7 @@ export const routes = {
       },
     ],
   },
-  project: {
-    path: "/project",
-    langs: [
-      {
-        lang: languages.en.short,
-        title: "Projects",
-        description: "Mobina Afshari's projects",
-      },
-      {
-        lang: languages.fa.short,
-        title: "پروژه‌ها",
-        description: "پروژه‌های مبینا افشاری",
-      },
-    ],
-  },
-  blog: {
-    path: "/blog",
-    langs: [
-      {
-        lang: languages.en.short,
-        title: "Blog",
-        description: "Mobina Afshari's blog",
-      },
-      {
-        lang: languages.fa.short,
-        title: "بلاگ",
-        description: "بلاگ مبینا افشاری",
-      },
-    ],
-  },
-  notFound: {
-    langs: [
-      {
-        lang: languages.en.short,
-        title: "Not Found",
-        description: "Page not found",
-      },
-      {
-        lang: languages.fa.short,
-        title: "پیدا نشد",
-        description: "صفحه پیدا نشد",
-      },
-    ],
-  },
+  
   about: {
     path: "/about",
     langs: [
@@ -180,21 +137,7 @@ export const routes = {
       },
     ],
   },
-  blogDetails: {
-    path: "/blog/:blogid",
-    langs: [
-      {
-        lang: languages.en.short,
-        title: "Blog Details",
-        description: "Blog Details",
-      },
-      {
-        lang: languages.fa.short,
-        title: "جزئیات بلاگ",
-        description: "جزئیات بلاگ",
-      },
-    ],
-  },
+  
   educationDetails: {
     path: "/education/:educationid",
     langs: [
